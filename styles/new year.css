@@ -1,0 +1,336 @@
+
+
+/* styles related to header */
+header{
+    background-image: url(../assets/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1300px;
+    height: 580px;
+    margin: 5px 60px 100px;
+    border: 0;
+    border-radius: 14px;
+
+}
+
+.banner-heading{
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 100px;
+font-weight: 1000px;
+text-align: center;
+margin-top: 4px;
+
+}
+
+.banner-subtitle{
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+text-align: center;
+padding-bottom: 0px;
+margin-top: 15px;
+padding-top: 90px;
+
+}
+
+.banner{
+margin-top: 60px;
+margin-bottom: 300px;
+padding-bottom: 10px ;
+padding-top: 5px;
+}
+
+/* main related styles */
+
+main{
+    max-height:2000px ;
+    max-width: 900px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/* 65% offer related styles */
+
+.sixtyfive-offer{ 
+    
+margin: 100px 100px 150px 300px;
+justify-content: space-evenly;
+align-content: center;}
+
+.offer-heading{
+    color: rgb(255, 136, 0);
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+    margin: 70px 100px;
+}
+
+.offer-info{
+   color: blueviolet;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 5px ; 
+}
+
+.offer-subheading{
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 5px ;  
+}
+
+/* midnight party related styles */
+
+.midnight-party{
+background-image: url(../assets/images/Vectorrr.png);
+width: 1300px;
+height: 500px;
+position: absolute;
+margin-top: 10px;
+border-radius: 10px;
+margin-bottom: 500px;
+}
+
+.midnight-party-container{
+    display: flex;
+   
+    padding:30px 40px 10px 30px;
+   
+}
+
+.midnight-party-text{
+    color: aliceblue;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.midnight-heading{
+    font-size: 40px;
+}
+
+.midnight-description{
+    font-size: 20px;
+}
+
+.midnight-party-pic{
+    height: 420px;
+    width: 350px;
+   margin-top:15px ;
+}
+
+/* date and time related styles */
+
+.date-time{
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    margin-top: 600px ;
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom:10px
+    
+}
+
+.date-time-text{
+    color: red;
+    font-size: 25px;
+    margin-bottom: 5px;
+    
+}
+
+.date-time-text-t{
+    color: rgba(128, 0, 75, 0.849);
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.date-time-text-th{
+    color: rgb(255, 60, 0);
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+.btn-primary{
+    color:wheat;
+    background-color: orange;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+/* portfolio related styles */
+
+.portfolio-text{
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    margin-top: 900px ;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.portfolio-subheading{
+    color:magenta;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom:5px;
+    margin-top: 10px;
+}
+.portfolio-heading{
+    color:green;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    margin-top: 10px;
+     
+}
+
+
+
+.portfolio{
+    position: absolute;
+    width: 1320px;
+    height: 1163px;
+    margin-top: 900px;
+  
+}
+
+.portfolio-products{
+
+    display: flex;
+    margin-bottom: 900px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.portfolio-text{
+margin-top: 20px;
+margin-bottom: 100px;
+}
+
+.shoe-set,.rest-set,.bag-set{
+    list-style: none;
+}
+
+.picture{
+    height: 400px;
+    width: 360px;
+    border-radius: 10px;
+}
+
+
+/*newsletter related styles */
+
+.newsletter-sec{
+position: absolute;
+width: 650px;
+height: 570px;
+left: 400px;
+right: 100px;
+top: 3777px;
+bottom: 100px;
+
+}
+
+.newsletter-container{
+margin-left: 40px;
+margin-right: 70px;
+align-content: center;
+
+    
+}
+
+.newsletter-heading{
+font-family: Merriweather;
+font-size: 30px;
+font-weight: 900;
+color: darkblue;
+text-align: center;
+}
+
+.newsletter-pic{
+    text-align: center;
+}
+
+.newsletter-info{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    border-radius: 5px;
+   background-color: orange;
+    color: aliceblue;
+border: 0px;
+width: 120px;
+height: 50px;
+font-size: 15px;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.button-container> input[type="email"]{
+    width: 180px;
+    height: 47px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+/* footer related style starts here */
+
+.foot-sec{
+    position: absolute;
+    width: 1400px; 
+   
+    height: 470px;
+    top: 4300px;
+    bottom: 50px;
+    background-color: burlywood;
+    margin-left: 5px;
+    
+}
+
+.footer-container{
+    padding-top: 110px;
+    padding-left: 150px;
+    padding-right: 120px;
+    
+}
+
+.footer-text{
+    display: flex;
+    gap: 720px;
+}
+
+.social-links{
+    text-align: center;
+    padding: 30px;
+   
+}
+
+.copyright{
+    display: flex;
+    gap: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+    
